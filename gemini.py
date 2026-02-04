@@ -1,6 +1,6 @@
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyCJUIjNx6jHYcpWt-GMFdXawJOnBuaodl4")
+genai.configure(api_key="")
 
 # 1) Connectivity + auth test
 models = genai.list_models()
